@@ -1,0 +1,46 @@
+#root {
+    margin-bottom: auto;
+    
+  }
+*{
+    margin:0;
+    padding: 0;
+
+}
+nav{
+    width: 1220px;;
+    height:100px;
+    background-color:rgb(48, 199, 240);
+}
+.nav_box{
+    width:100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my_shop{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(30, 4, 121);
+    font-family:fantasy;
+    cursor: pointer;
+}
+
+.cart{
+    cursor:pointer
+}
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: whitesmoke;
+
+}
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: rgb(234, 82, 133);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    top: -15px;
+
+}
