@@ -24,7 +24,7 @@ useEffect(()=>{
          cart?.map((item)=>(
           <div className='cart_box' key={item.id}>
             <div className='cart_img'>
-              <img src={item.img}/>
+              <img src={item.images}/>
               <p>{item.title}</p>
             </div>
             <div>
